@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_caht/Screens/InputQuestionWidget.dart';
 import 'package:flutter_application_caht/Screens/MultipleQuestionWidget.dart';
 import 'package:flutter_application_caht/Screens/Question.dart';
-import 'package:flutter_application_caht/CourseManager.dart';
+import 'package:flutter_application_caht/Presentation/CourseManager.dart';
 
 class QuestionScreen extends StatelessWidget {
   QuestionScreen.from();

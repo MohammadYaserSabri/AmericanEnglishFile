@@ -2,9 +2,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_caht/DatabaseHelper.dart';
+import 'package:flutter_application_caht/Presentation/DatabaseHelper.dart';
 import 'package:flutter_application_caht/Screens/AppService.dart';
-import 'package:flutter_application_caht/Screens/Course.dart';
+import 'package:flutter_application_caht/Presentation/Screens/HomeDashBoard.dart';
 import 'package:flutter_application_caht/Screens/Login.dart';
 import 'package:flutter_application_caht/Screens/UserModel.dart';
 
@@ -73,7 +73,7 @@ class _RejesterState extends State<Rejester> {
           await DatabaseHelper()
               .createProfileLocallyToDatabase(_name!, user!.uid);
 
-          Navigator.pushNamed(context, Course.id);
+          Navigator.pushNamed(context, HomeDashBoard.id);
         } catch (e) {
           print("fire store error is $e");
           await _auth.signOut();

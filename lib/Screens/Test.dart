@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_application_caht/DatabaseHelper.dart';
-import 'package:flutter_application_caht/Screens/Choose.dart';
+import 'package:flutter_application_caht/Presentation/DatabaseHelper.dart';
+import 'package:flutter_application_caht/Presentation/Screens/StudyDashBoard.dart';
 import 'package:flutter_application_caht/Screens/Question.dart';
 import 'package:flutter_application_caht/Screens/QuestionScreen.dart';
-import 'package:flutter_application_caht/CourseManager.dart';
+import 'package:flutter_application_caht/Presentation/CourseManager.dart';
 
 class AnimatedButton extends StatefulWidget {
   final bool isSelected;
@@ -221,7 +221,7 @@ class TestResultDialog extends StatelessWidget {
 
 // Update the test progress in the database
                     await DatabaseHelper().updateTestProgress(progressInt);
-                    Navigator.pushNamed(context, Choose.id);
+                    Navigator.pushNamed(context, StudyDashboard.id);
 
                     await CourseManager().loadTestProgressOfUnit(
                         CourseManager().getCurrentUnit());

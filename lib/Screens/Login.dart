@@ -3,7 +3,7 @@ import 'dart:isolate';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_caht/Screens/AppService.dart';
-import 'package:flutter_application_caht/Screens/Course.dart';
+import 'package:flutter_application_caht/Presentation/Screens/HomeDashBoard.dart';
 import 'package:flutter_application_caht/Screens/Rejester.dart';
 
 class Login extends StatefulWidget {
@@ -55,7 +55,7 @@ class _LoginState extends State<Login> {
 
         AppService().user = _auth.currentUser;
 
-        Navigator.pushNamed(context, Course.id);
+        Navigator.pushNamed(context, HomeDashBoard.id);
       } on FirebaseAuthException catch (e) {
         print(e.code);
 

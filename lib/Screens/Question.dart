@@ -1,8 +1,8 @@
 import 'dart:math';
 
 import 'package:flutter/animation.dart';
-import 'package:flutter_application_caht/Vocabulary.dart';
-import 'package:flutter_application_caht/CourseManager.dart';
+import 'package:flutter_application_caht/Presentation/Vocabulary.dart';
+import 'package:flutter_application_caht/Presentation/CourseManager.dart';
 
 List<String> _words = [];
 List<String> _synonyms = [];

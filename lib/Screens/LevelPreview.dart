@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_caht/DatabaseHelper.dart';
-import 'package:flutter_application_caht/Vocabulary.dart';
-import 'package:flutter_application_caht/CourseManager.dart';
-import 'package:flutter_application_caht/WordPreview.dart';
+import 'package:flutter_application_caht/Presentation/DatabaseHelper.dart';
+import 'package:flutter_application_caht/Presentation/Vocabulary.dart';
+import 'package:flutter_application_caht/Presentation/CourseManager.dart';
+import 'package:flutter_application_caht/Presentation/WordPreview.dart';
 
 DatabaseHelper dbHelper = DatabaseHelper();
 List<Vocabulary> _words = [];

@@ -1,16 +1,8 @@
-import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import 'package:flutter/animation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:flutter_application_caht/DatabaseHelper.dart';
-import 'package:flutter_application_caht/Screens/Course.dart';
-import 'package:flutter_application_caht/Screens/LevelPreview.dart';
-import 'package:flutter_application_caht/Screens/Unit.dart';
-import 'package:flutter_application_caht/CourseManager.dart';
+import 'package:flutter_application_caht/Presentation/DatabaseHelper.dart';
+import 'package:flutter_application_caht/Presentation/CourseManager.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
-import 'package:simple_circular_progress_bar/simple_circular_progress_bar.dart';
 import 'package:flutter_animation_progress_bar/flutter_animation_progress_bar.dart';
-import 'package:flutter_application_caht/Screens/Unit.dart' as unit;
 
 Color customPainterRectColor = Colors.deepPurple.shade50;
 Color customPainterCircleColor = Colors.deepPurple;
@@ -22,101 +14,21 @@ Color progressBarPageColor = Colors.deepPurple;
 Color progressBarBackPageColor = Colors.deepPurple.shade100;
 Color progressBarTextPageColor = Colors.white;
 
-class Choose extends StatefulWidget {
+class StudyDashboard extends StatefulWidget {
   static const String id = "choose";
-  const Choose({super.key});
+  const StudyDashboard({super.key});
 
   @override
-  State<Choose> createState() => _ChooseState();
+  State<StudyDashboard> createState() => _StudyDashboardState();
 }
 
-class _ChooseState extends State<Choose> {
+class _StudyDashboardState extends State<StudyDashboard> {
   final databaseHelper = DatabaseHelper();
 
-  void HandleWords() async {
-    Navigator.pushNamed(context, UnitsPage.id);
-    CourseManager().action = unit.Action.Words;
-  }
-
-  void HandleMyWords() {
-    CourseManager().setCurrentUnit("MyWords");
-    CourseManager().setAllVocabularyOfSelectedUnit("MyWords");
-    Navigator.pushNamed(context, LevelPrevieww.id);
-  }
-
-  void HandleVocabularyBank() {
-    CourseManager().action = unit.Action.VocabularyBank;
-    Navigator.pushNamed(context, UnitsPage.id);
-  }
-
-  void HandleTest() {
-    Navigator.pushNamed(context, UnitsPage.id);
-    CourseManager().action = unit.Action.Test;
-  }
-
-  int _selectedIndex = 1;
-  final dbHelper = DatabaseHelper();
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-  }
-
-  void _onItemTapped(int index) async {
-    if (index == 0) {
-      Navigator.pushReplacementNamed(context, Course.id);
-    } else if (index == 1) {
-      var bookName = "AmericanEnglishFile1";
-
-      bool isCurrentBookExists = await dbHelper.isCurrentBookExists(bookName);
-
-      if (!isCurrentBookExists) {
-        showDialog(
-          context: context,
-          builder: (BuildContext context) {
-            return AlertDialog(
-              title: const Text('Course Not Supported'),
-              content: const Text('This course is currently not supported.'),
-              actions: <Widget>[
-                TextButton(
-                  onPressed: () {
-                    Navigator.of(context).pop(); // Close the dialog
-                  },
-                  child: const Text('OK'),
-                ),
-              ],
-            );
-          },
-        );
-      } else {
-        var wordLoader = CourseManager();
-
-        wordLoader.setUnitsNamesOfTheBook(bookName);
-
-        // wordLoader.printUnitsName();
-
-        wordLoader.setCurrentBook(bookName);
-
-        await wordLoader.setAllVocabularyOfTheCurrentBook(bookName);
-
-        await CourseManager().setCourseProgress();
-        // wordLoader.printVocabulary();
-        // await CourseManager().loadUnitsProgress();
-        Navigator.pushNamed(
-          context,
-          Choose.id,
-        );
-      }
-    }
-    setState(() {
-      _selectedIndex = index;
-    });
-  }
-
-  void setCourseProgress() async {
-    await CourseManager().setCourseProgress();
-
-    setState(() {});
   }
 
   @override
@@ -124,21 +36,6 @@ class _ChooseState extends State<Choose> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.deepPurple,
-      ),
-      bottomNavigationBar: CurvedNavigationBar(
-        color: Colors.deepPurple,
-        backgroundColor: Colors.deepPurple.shade50,
-        items: [
-          Icon(
-            Icons.home,
-            size: 28,
-            color: Colors.deepPurple.shade50,
-          ),
-          Icon(Icons.book, size: 28, color: Colors.deepPurple.shade50),
-          Icon(Icons.change_circle, size: 28, color: Colors.deepPurple.shade50),
-        ],
-        index: _selectedIndex,
-        onTap: _onItemTapped,
       ),
       body: SafeArea(
         child: Stack(
@@ -210,7 +107,7 @@ class _ChooseState extends State<Choose> {
                         circleAvatar: Colors.red,
                         backGroudColor: Colors.red.shade100,
                         cardName: "Words",
-                        press: HandleWords,
+                        press: () {},
                       ),
                     ],
                   ),
@@ -225,7 +122,7 @@ class _ChooseState extends State<Choose> {
                         cardName: "Vocabulary Bank",
                         progress: CourseManager().getVocabularyBankProgress(),
                         backGroudColor: Colors.green.shade200,
-                        press: HandleVocabularyBank,
+                        press: () {},
                       ),
                       Card2(
                         icon: Icons.book,
@@ -234,7 +131,7 @@ class _ChooseState extends State<Choose> {
                         progress: 0,
                         backGroudColor: Colors.blue.shade200,
                         cardName: "My words",
-                        press: HandleMyWords,
+                        press: () {},
                       ),
                     ],
                   ),
@@ -249,7 +146,7 @@ class _ChooseState extends State<Choose> {
                         progress: CourseManager().getTotalOfAllTestsProgress(),
                         backGroudColor: Colors.pink.shade200,
                         cardName: "Test",
-                        press: HandleTest,
+                        press: () {},
                       ),
                       Card2(
                         progress: 0,
@@ -270,8 +167,6 @@ class _ChooseState extends State<Choose> {
     );
   }
 }
-
-
 
 class Card2 extends StatefulWidget {
   Card2(

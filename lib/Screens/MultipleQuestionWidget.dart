@@ -1,7 +1,7 @@
 // ignore_for_file: unrelated_type_equality_checks
 
 import 'package:flutter/material.dart';
-import 'package:flutter_application_caht/Screens/Choose.dart';
+import 'package:flutter_application_caht/Presentation/Screens/StudyDashBoard.dart';
 import 'package:flutter_application_caht/Screens/Question.dart';
 import 'package:flutter_application_caht/Screens/Test.dart';
 
@@ -65,7 +65,7 @@ class _MultipleChoiceQuestionWidgetState
         ).then((value) {
           if (value == 'Test Again') {
           } else if (value == 'Back to Home') {
-            Navigator.pushNamed(context, Choose.id);
+            Navigator.pushNamed(context, StudyDashboard.id);
           }
           widget.question.reset();
         });

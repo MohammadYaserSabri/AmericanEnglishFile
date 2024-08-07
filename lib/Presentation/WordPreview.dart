@@ -3,10 +3,10 @@ import 'dart:collection';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_application_caht/DatabaseHelper.dart';
+import 'package:flutter_application_caht/Presentation/DatabaseHelper.dart';
 import 'package:flutter_application_caht/Screens/Unit.dart';
-import 'package:flutter_application_caht/Vocabulary.dart';
-import 'package:flutter_application_caht/CourseManager.dart';
+import 'package:flutter_application_caht/Presentation/Vocabulary.dart';
+import 'package:flutter_application_caht/Presentation/CourseManager.dart';
 
 class WordPreview extends StatefulWidget {
   const WordPreview({Key? key}) : super(key: key);

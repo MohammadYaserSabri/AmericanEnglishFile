@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animation_progress_bar/flutter_animation_progress_bar.dart';
-import 'package:flutter_application_caht/Screens/Course.dart';
+import 'package:flutter_application_caht/Presentation/Screens/HomeDashBoard.dart';
 import 'package:flutter_application_caht/Screens/LevelPreview.dart';
 import 'package:flutter_application_caht/Screens/Question.dart';
 import 'package:flutter_application_caht/Screens/QuestionScreen.dart';
-import 'package:flutter_application_caht/CourseManager.dart';
+import 'package:flutter_application_caht/Presentation/CourseManager.dart';
 import 'package:simple_circular_progress_bar/simple_circular_progress_bar.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 
@@ -536,7 +536,7 @@ class QuestionSelector extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            //  if (isInputTestMethodIsValidForThisTest(testLevel))
+              if (isInputTestMethodIsValidForThisTest(testLevel))
             GestureDetector(
               onTap: () {
                 print("tapped input");

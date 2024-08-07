@@ -3,11 +3,11 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_application_caht/DatabaseHelper.dart';
+import 'package:flutter_application_caht/Presentation/DatabaseHelper.dart';
 import 'package:flutter_application_caht/Screens/Question.dart';
 import 'package:flutter_application_caht/Screens/Unit.dart';
-import 'package:flutter_application_caht/Vocabulary.dart';
-import 'package:flutter_application_caht/main.dart';
+import 'package:flutter_application_caht/Presentation/Vocabulary.dart';
+import 'package:flutter_application_caht/main/main.dart';
 
 class CourseManager {
   static final CourseManager _instance = CourseManager._internal();

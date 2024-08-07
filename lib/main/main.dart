@@ -3,11 +3,11 @@ import 'dart:async';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-import 'package:flutter_application_caht/DatabaseHelper.dart';
-import 'package:flutter_application_caht/Glossary.dart';
+import 'package:flutter_application_caht/Presentation/DatabaseHelper.dart';
+import 'package:flutter_application_caht/Presentation/Glossary.dart';
 import 'package:flutter_application_caht/Screens/AppService.dart';
-import 'package:flutter_application_caht/Screens/Choose.dart';
-import 'package:flutter_application_caht/Screens/Course.dart';
+import 'package:flutter_application_caht/Presentation/Screens/StudyDashBoard.dart';
+import 'package:flutter_application_caht/Presentation/Screens/HomeDashBoard.dart';
 import 'package:flutter_application_caht/Screens/Example.dart';
 import 'package:flutter_application_caht/Screens/LevelPreview.dart';
 import 'package:flutter_application_caht/Screens/Login.dart';
@@ -16,10 +16,10 @@ import 'package:flutter_application_caht/Screens/Rejester.dart';
 import 'package:flutter_application_caht/Screens/Unit.dart';
 import 'package:flutter_application_caht/Screens/UsersScreen.dart';
 import 'package:flutter_application_caht/Screens/chat_screen.dart';
-import 'package:flutter_application_caht/Vocabulary.dart';
-import 'package:flutter_application_caht/CourseManager.dart';
+import 'package:flutter_application_caht/Presentation/Vocabulary.dart';
+import 'package:flutter_application_caht/Presentation/CourseManager.dart';
 import 'package:flutter_background_service/flutter_background_service.dart';
-import 'package:flutter_application_caht/WordPreview.dart';
+import 'package:flutter_application_caht/Presentation/WordPreview.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:translator/translator.dart';
@@ -228,18 +228,16 @@ void main() async {
   try {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: 'AIzaSyAcBuvvKNzaMkUxy3yb4aoNBbTJ1Qf4x8g',
-        appId: '1:710378218728:android:e741017eea7e5c1a0e555d',
-        messagingSenderId: '710378218728',
-        
-        projectId: 'fir-74e71',
-        storageBucket: 'gs://fir-74e71.appspot.com',
-        databaseURL: 'https://fir-74e71-default-rtdb.firebaseio.com'
-      ),
+          apiKey: 'AIzaSyAcBuvvKNzaMkUxy3yb4aoNBbTJ1Qf4x8g',
+          appId: '1:710378218728:android:e741017eea7e5c1a0e555d',
+          messagingSenderId: '710378218728',
+          projectId: 'fir-74e71',
+          storageBucket: 'gs://fir-74e71.appspot.com',
+          databaseURL: 'https://fir-74e71-default-rtdb.firebaseio.com'),
     );
     // AppService().start();
     try {
-     // await initializeService();
+      // await initializeService();
     } catch (e) {
       print("service problem: $e");
     }
@@ -307,17 +305,16 @@ class _FlashChatState extends State<FlashChat> with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-     
-      initialRoute: Course.id,
+      initialRoute: HomeDashBoard.id,
       routes: {
         UsersScreen.id: (context) => UsersScreen(),
         MyApp.id: (context) => MyApp(),
-        Choose.id: (context) => const Choose(),
+        StudyDashboard.id: (context) => const StudyDashboard(),
         UnitsPage.id: (context) => UnitsPage.from(),
         WordPreview.id: (context) => const WordPreview(),
         ChatScreen.id: (context) => ChatScreen(),
         LevelPrevieww.id: (context) => LevelPrevieww(),
-        Course.id: (context) => const Course(),
+        HomeDashBoard.id: (context) => const HomeDashBoard(),
         Rejester.id: (context) => Rejester(),
         Login.id: (context) => Login(),
         Welcome.id: (context) => const Welcome(),
