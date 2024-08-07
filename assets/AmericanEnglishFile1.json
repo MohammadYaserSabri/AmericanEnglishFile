@@ -1,0 +1,685 @@
+
+    {
+        "AmericanEnglishFile1": [
+            { 
+                 "Units":[ {
+                "A1": {
+                    "Vocabulary": [
+                        {
+                            "word": "Fill",
+                            "meaning":"",
+                            "type": "Verb",
+                            "Synonym": [
+                                "Stuff",
+                                "Load",
+                                "Pack"
+                            ],
+                            "Description": "To make something full or to occupy space within a container or area. For example, filling a glass with water or filling out a form.",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "rhythm",
+                            "meaning":"",
+                            "type": "Noun",
+                            "Synonym": [
+                                "Beat",
+                                "Cadence",
+                                "Tempo"
+                            ],
+                            "Description": "A regular, repeated pattern of sounds or movements. Rhythm is often used in music, dance, and poetry to create a sense of timing and flow.",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Contraction",
+                            "meaning":"",
+                            "type": "Noun",
+                            "Synonym": [
+                                "Shortening",
+                                "Reduction",
+                                "Tightening"
+                            ],
+                            "Description": "The process of becoming smaller or tighter. In physiology, it refers to the shortening of muscle fibers. In grammar, it means combining two words into one (e.g., do not becomes don't).",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Pair",
+                            "meaning":"",
+                            "type": "Noun",
+                            "Synonym": [
+                                "Duo",
+                                "Couple",
+                                "Twosome"
+                            ],
+                            "Description": "Two similar or corresponding things that are matched together, such as a pair of shoes or a pair of earrings. It also refers to two people who are associated together, such as partners or a couple.",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Respond",
+                            "meaning":"",
+                            "type": "Verb",
+                            "Synonym": [
+                                "Reply",
+                                "Answer",
+                                "React"
+                            ],
+                            "Description": "To say or do something in reaction to a statement, question, or situation. For example, responding to a question in an interview or reacting to a stimulus.",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Gate",
+                            "meaning":"",
+                            "type": "Noun",
+                            "Synonym": [
+                                "Entrance",
+                                "Barrier",
+                                "Portal"
+                            ],
+                            "Description": " A hinged barrier used to close an opening in a wall, fence, or hedge. Gates control access to an area and can be found in gardens, homes, and airports",
+                            "OwnDescription": ""
+                        }
+                    ]
+                },
+                "B1": {
+                    "Vocabulary": [
+                        {
+                            "word": "Fill",
+                            "meaning":"",
+                            "type": "Verb",
+                            "Synonym": [
+                                "Stuff",
+                                "Load"
+                                
+                            ],
+                            "Description": "To make something full or to occupy space within a container or area. For example, filling a glass with water or filling out a form.",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "rhythm",
+                            "meaning":"",
+                            "type": "Noun",
+                            "Synonym": [
+                                "Beat",
+                                "Cadence"
+                            ],
+                            "Description": "A regular, repeated pattern of sounds or movements. Rhythm is often used in music, dance, and poetry to create a sense of timing and flow.",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Contraction",
+                            "meaning":"",
+                            "type": "Noun",
+                            "Synonym": [
+                                "Shortening",
+                                "Reduction"
+                            ],
+                            "Description": "The process of becoming smaller or tighter. In physiology, it refers to the shortening of muscle fibers. In grammar, it means combining two words into one (e.g., do not becomes don't).",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Pair",
+                            "meaning":"",
+                            "type": "Noun",
+                            "Synonym": [
+                                "Duo",
+                                "Couple"
+                            ],
+                            "Description": "Two similar or corresponding things that are matched together, such as a pair of shoes or a pair of earrings. It also refers to two people who are associated together, such as partners or a couple.",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Respond",
+                            "meaning":"",
+                            "type": "Verb",
+                            "Synonym": [
+                                "Reply",
+                                "Answer"
+                            ],
+                            "Description": "To say or do something in reaction to a statement, question, or situation. For example, responding to a question in an interview or reacting to a stimulus.",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Gate",
+                            "meaning":"",
+                            "type": "Noun",
+                            "Synonym": [
+                                "Entrance",
+                                "Barrier"
+                            ],
+                            "Description": " A hinged barrier used to close an opening in a wall, fence, or hedge. Gates control access to an area and can be found in gardens, homes, and airports",
+                            "OwnDescription": ""
+                        }
+                    ]
+                    
+                },
+                "C1": {
+                    "Vocabulary": [
+                        {
+                            "word": "Board",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Chair",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "desk",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "table",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "wall",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Window",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Door",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Boot",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Partner",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Reception",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Elevator",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Magazine",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Sign",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Waitress",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Coffee",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Soda",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Social",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        }
+                    ]
+                },
+                "A2": {
+                    "Vocabulary": [
+                        {
+                            "word": "Neat",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Messy",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Purs",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Snake",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Zebra",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Tissues",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Glass",
+                            "meaning":"",
+                            "type": "Glass",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        }
+                    ]
+                }
+                ,
+                "B2": {
+                    "Vocabulary": [
+                        {
+                            "word": "Neat",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Messy",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Purs",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Snake",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Zebra",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Tissues",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Glass",
+                            "meaning":"",
+                            "type": "Glass",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        }
+                    ]
+                }
+                ,
+                "C2": {
+                    "Vocabulary": [
+                        {
+                            "word": "Neat",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Messy",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Purs",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Snake",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Zebra",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Tissues",
+                            "meaning":"",
+                            "type": "Adj",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Glass",
+                            "meaning":"",
+                            "type": "Glass",
+                            "Synonym": [
+                                "begin",
+                                "start"
+                            ],
+                            "Description": "When you get nervouse",
+                            "OwnDescription": ""
+                        }
+                    ]
+                }
+                           }
+            ]
+    
+            } ,
+
+        {
+            "VocabularyBank":[ {
+                "VB_A1": {
+                    "Vocabulary": [
+                        {
+                            "word": "Fill",
+                            "meaning":"",
+                            "type": "Verb",
+                            "Synonym": [
+                                "Stuff",
+                                "Load",
+                                "Pack"
+                            ],
+                            "Description": "To make something full or to occupy space within a container or area. For example, filling a glass with water or filling out a form.",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "rhythm",
+                            "meaning":"",
+                            "type": "Noun",
+                            "Synonym": [
+                                "Beat",
+                                "Cadence",
+                                "Tempo"
+                            ],
+                            "Description": "A regular, repeated pattern of sounds or movements. Rhythm is often used in music, dance, and poetry to create a sense of timing and flow.",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Contraction",
+                            "meaning":"",
+                            "type": "Noun",
+                            "Synonym": [
+                                "Shortening",
+                                "Reduction",
+                                "Tightening"
+                            ],
+                            "Description": "The process of becoming smaller or tighter. In physiology, it refers to the shortening of muscle fibers. In grammar, it means combining two words into one (e.g., do not becomes don't).",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Pair",
+                            "meaning":"",
+                            "type": "Noun",
+                            "Synonym": [
+                                "Duo",
+                                "Couple",
+                                "Twosome"
+                            ],
+                            "Description": "Two similar or corresponding things that are matched together, such as a pair of shoes or a pair of earrings. It also refers to two people who are associated together, such as partners or a couple.",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Respond",
+                            "meaning":"",
+                            "type": "Verb",
+                            "Synonym": [
+                                "Reply",
+                                "Answer",
+                                "React"
+                            ],
+                            "Description": "To say or do something in reaction to a statement, question, or situation. For example, responding to a question in an interview or reacting to a stimulus.",
+                            "OwnDescription": ""
+                        },
+                        {
+                            "word": "Gate",
+                            "meaning":"",
+                            "type": "Noun",
+                            "Synonym": [
+                                "Entrance",
+                                "Barrier",
+                                "Portal"
+                            ],
+                            "Description": " A hinged barrier used to close an opening in a wall, fence, or hedge. Gates control access to an area and can be found in gardens, homes, and airports",
+                            "OwnDescription": ""
+                        }
+                    ]
+                }
+                
+                    
+                
+            }
+            ]
+        
+
+        }
+
+        ]
+       
+        
+    }
